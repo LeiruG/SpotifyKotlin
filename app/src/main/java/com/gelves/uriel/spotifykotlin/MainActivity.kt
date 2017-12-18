@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
         Songs.add(Music("Welcome to the Jungle", "Guns N' Roses", " • Appetite for Destruction"))
         Songs.add(Music("My Way", "Frank Sinatra", " • My Way"))
         Songs.add(Music("Tears in Heaven", "Eric Clapton", " • Rush"))
+        Songs.add(Music("Basket Case", "Green Day", " • Dookie"))
+        Songs.add(Music("Pink + Matter", "Frank Ocean", " • Channel Orange"))
         Songs.add(Music("Thinking About You", "Frank Ocean", " • Channel Orange"))
 
         var adapter = AdapterClass(Songs)
